@@ -15,8 +15,4 @@ def run_guessing_game
   end
 end
 
-def get_input
-  puts "Pick a number between 1 and 6.".chomp
-  gets.chomp
-end
-  
+
