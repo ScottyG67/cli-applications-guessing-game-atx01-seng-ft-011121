@@ -8,7 +8,7 @@ def run_guessing_game
   answer = gets.chomp
   #binding.pry
   if answer == number
-    puts "You guessed the correct number!"
+    puts "You guessed the correct number!".chomp
   elsif answer == "exit"
     puts "Goodbye!"
   else
@@ -17,7 +17,7 @@ def run_guessing_game
 end
 
 def get_input
-  puts "Pick a number between 1 and 6"
+  puts "Pick a number between 1 and 6.".chomp
   gets.chomp
 end
   
