@@ -1,5 +1,5 @@
 # Code your solution here!
-#require 'pry'
+require 'pry'
 def run_guessing_game
   binding.pry
   number = rand(6)+1
