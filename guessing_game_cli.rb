@@ -12,7 +12,7 @@ def run_guessing_game
   elsif answer == "exit"
     puts "Goodbye!"
   else
-    puts "Sorry! The computer guessed #{number}".chomp
+    puts "Sorry! The computer guessed #{number}.".chomp
   end
 end
 
