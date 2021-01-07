@@ -1,7 +1,8 @@
 # Code your solution here!
-require 'pry'
 
 def run_guessing_game
+  require 'pry'
+  binding.pry
   number = rand(1..6)
   puts "Pick a number between 1 and 6"
   answer = gets.chomp
