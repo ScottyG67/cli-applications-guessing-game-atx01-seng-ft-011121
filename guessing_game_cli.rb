@@ -1,11 +1,10 @@
 # Code your solution here!
-require 'pry'
+
 def run_guessing_game
-  #binding.pry
+
   number = (rand(6)+1).to_s
-  #puts "Pick a number between 1 and 6"
-  answer = gets.chomp
-  #binding.pry
+  #answer = gets.chomp
+  answer = get_input
   if answer == number
     puts "You guessed the correct number!".chomp
   elsif answer == "exit"
